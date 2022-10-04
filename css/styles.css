@@ -1,0 +1,258 @@
+/* ********************** */
+/* SECTION HEADER */
+/* ********************** */
+.header {
+  display: flex;
+  padding: 1.2rem 4.8rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head-logo {
+  display: flex;
+  align-items: center;
+  color: #184f22;
+}
+.icon-logo {
+  width: 6.2rem;
+  height: 6.2rem;
+}
+.logo-name {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+.head-logo span {
+  font-size: 4.4rem;
+  letter-spacing: 2px;
+}
+
+.header nav a:hover,
+.header nav a:active {
+  color: #216f30;
+}
+
+.header .nav-btn:link,
+.header .nav-btn:visited {
+  background-color: #184f22;
+  color: white;
+  padding: 1.2rem 2.4rem;
+  border-radius: 8px;
+}
+
+.header .nav-btn:hover,
+.header .nav-btn:active {
+  background-color: #216f30;
+}
+
+.menu-button:link,
+.menu-button:visited {
+  color: #184f22;
+  text-decoration: none;
+  display: none;
+}
+
+.menu-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+/* ********************** */
+/* SECTION HERO */
+/* ********************** */
+
+.section-hero {
+  padding: 9.6rem 0;
+  background-color: #d5ecda;
+}
+
+.hero-img-box {
+  display: flex;
+  align-self: center;
+}
+
+.hero-img-tiger {
+  width: 30rem;
+  height: 30rem;
+  border: 5px solid white;
+  border-radius: 50%;
+  /* transform: translateY(30%); */
+}
+
+.hero-img-lion {
+  width: 40rem;
+  height: 40rem;
+  border: 5px solid white;
+  border-radius: 50%;
+  margin-left: -8.6rem;
+  transform: translateY(5%);
+}
+
+/* ********************** */
+/* SECTION FEATURE */
+/* ********************** */
+
+.section-feature {
+  padding: 4.8rem 0 3.2rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.feature-logo {
+  height: 3.2rem;
+  filter: brightness(0);
+  opacity: 60%;
+}
+
+/* ********************** */
+/* SECTION ABOUT */
+/* ********************** */
+
+.section-about {
+  padding: 9.6rem 0;
+}
+
+.img-carlos {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* ********************** */
+/* SECTION TESTIMONIALS */
+/* ********************** */
+
+.section-testimonials {
+  padding: 9.6rem 0;
+}
+
+.testimonial-box {
+  background-color: #d5ecda;
+  padding: 3.2rem;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+}
+
+.testimonial-img {
+  height: 7.4rem;
+  border: 3px solid white;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 0.8rem;
+}
+
+.testimonial-name {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.testimonial-name span {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/* ********************** */
+/* SECTION ANIMALS */
+/* ********************** */
+
+.section-animals {
+  padding: 9.6rem 0;
+}
+
+.animal-box {
+  border-radius: 100px;
+  overflow: hidden;
+  box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.2);
+}
+
+.animal-image {
+  width: 100%;
+  margin-bottom: 3.2rem;
+}
+
+.animal-name {
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  color: #216f30;
+  margin-bottom: 3.2rem;
+}
+
+.section-animals ul {
+  list-style: none;
+  margin-bottom: 3.2rem;
+}
+.section-animals li {
+  padding: 1.2rem 4.8rem;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  gap: 2rem;
+}
+
+.icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #184f22;
+}
+
+.section-animals a:link,
+.section-animals a:visited {
+  display: block;
+  font-size: 2.4rem;
+  text-align: center;
+  color: #184f22;
+  transition: all 0.3s;
+}
+
+.section-animals a:hover,
+.section-animals a:active {
+  color: #216f30;
+}
+
+/* ********************** */
+/* SECTION FOOTER */
+/* ********************** */
+
+.section-footer {
+  padding: 6.4rem 0;
+  background-color: #184f22;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-logo {
+  color: white;
+}
+
+.section-footer nav a:link,
+.section-footer nav a:visited {
+  color: white;
+}
+
+.footer-icon-box {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.footer-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: white;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  color: white;
+  text-align: center;
+  margin-top: 3.2rem;
+}
